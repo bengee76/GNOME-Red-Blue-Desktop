@@ -41,6 +41,8 @@ else
 fi
 
 sed -i "1s/.*/red/" "$current"
+sed -i "2s/.*/-1/" "$current"
+doNames "red" 3
+doNames "blue" 4
 
-doNames "red" 2
-doNames "blue" 3
+bash "wallpaperChanger.sh"

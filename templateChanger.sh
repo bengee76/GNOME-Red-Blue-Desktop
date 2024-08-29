@@ -11,4 +11,6 @@ else
     sed -i "1s/.*/red/" "$file"
 fi
 
+sed -i "2s/.*/-1/" "$file"
+
 bash "$scriptDir/wallpaperChanger.sh"
