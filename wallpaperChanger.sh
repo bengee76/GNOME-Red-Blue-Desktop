@@ -24,4 +24,3 @@ whole="$scriptDir$wall"
 uri="file:///$whole"
 
 gsettings set org.gnome.desktop.background picture-uri-dark "$uri"
-echo "done"

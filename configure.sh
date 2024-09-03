@@ -1,6 +1,4 @@
 #! /usr/bin/bash
-#!!! add neofetch install !!!
-#!!! change permissions !!!
 
 doNames() {
     cd "$1" || exit
