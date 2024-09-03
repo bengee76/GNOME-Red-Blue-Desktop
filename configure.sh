@@ -21,6 +21,8 @@ doNames() {
 
 currentDir=$(pwd)
 
+gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+
 gsettings set org.gnome.settings-daemon.plugins.media-keys custom-keybindings \
 "['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/']"
 
